@@ -20,3 +20,5 @@ with col1:
         with st.expander("See results here:"):
             for result in results:
                 st.code((f'link: {result}').strip())
+with col2:
+    st.image('https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1692294214/catalog/1692228747201867776/kwjevm8b3trftznernot.jpg')
