@@ -20,6 +20,3 @@ with col1:
         with st.expander("See results here:"):
             for result in results:
                 st.code((f'link: {result}').strip())
-
-with col2:
-    st.image('https://assets.bishopfox.com/prod-1437/Images/logos/partner-logos/NISOS-logo.png')
