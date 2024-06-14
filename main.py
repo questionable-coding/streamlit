@@ -13,7 +13,7 @@ st.title('Simple Python Web Scraper')
 col1, col2 = st.columns(2)
 
 with col1:
-    url = st.text_input('Enter target URL:')
+    url = st.text_input('Enter target URL: (https://example.com)')
     if st.button('Execute'):
         results = link_scraper(url)
         st.markdown('### Scraped Links:')
